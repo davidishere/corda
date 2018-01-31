@@ -9,9 +9,9 @@ import com.fasterxml.jackson.databind.SerializationFeature
 import net.corda.core.flows.FlowLogic
 import net.corda.core.flows.FlowStackSnapshot
 import net.corda.core.flows.FlowStackSnapshot.Frame
+import net.corda.core.flows.FlowStateMachine
 import net.corda.core.flows.StackFrameDataToken
 import net.corda.core.flows.StateMachineRunId
-import net.corda.core.internal.FlowStateMachine
 import net.corda.core.internal.div
 import net.corda.core.internal.write
 import net.corda.core.serialization.SerializeAsToken

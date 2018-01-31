@@ -4,8 +4,8 @@ import co.paralleluniverse.fibers.Suspendable
 import net.corda.core.flows.FlowInfo
 import net.corda.core.flows.FlowLogic
 import net.corda.core.flows.FlowSession
+import net.corda.core.flows.FlowStateMachine
 import net.corda.core.identity.Party
-import net.corda.core.internal.FlowStateMachine
 import net.corda.core.utilities.UntrustworthyData
 
 class FlowSessionImpl(override val counterparty: Party) : FlowSession() {

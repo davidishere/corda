@@ -7,10 +7,10 @@ import net.corda.client.jackson.JacksonSupport
 import net.corda.core.contracts.StateAndRef
 import net.corda.core.flows.FlowLogic
 import net.corda.core.flows.FlowSession
+import net.corda.core.flows.FlowStateMachine
 import net.corda.core.flows.InitiatedBy
 import net.corda.core.flows.InitiatingFlow
 import net.corda.core.identity.Party
-import net.corda.core.internal.FlowStateMachine
 import net.corda.core.internal.uncheckedCast
 import net.corda.core.node.services.queryBy
 import net.corda.core.toFuture

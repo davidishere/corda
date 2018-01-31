@@ -6,7 +6,7 @@ import net.corda.core.contracts.*
 import net.corda.core.flows.FlowLogic
 import net.corda.core.flows.FlowLogicRef
 import net.corda.core.flows.FlowLogicRefFactory
-import net.corda.core.internal.FlowStateMachine
+import net.corda.core.flows.FlowStateMachine
 import net.corda.core.internal.concurrent.openFuture
 import net.corda.core.internal.uncheckedCast
 import net.corda.core.node.StateLoader

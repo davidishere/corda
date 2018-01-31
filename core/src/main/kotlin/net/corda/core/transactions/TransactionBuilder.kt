@@ -7,7 +7,7 @@ import net.corda.core.crypto.SecureHash
 import net.corda.core.crypto.SignableData
 import net.corda.core.crypto.SignatureMetadata
 import net.corda.core.identity.Party
-import net.corda.core.internal.FlowStateMachine
+import net.corda.core.flows.FlowStateMachine
 import net.corda.core.node.ServiceHub
 import net.corda.core.node.ServicesForResolution
 import net.corda.core.node.services.KeyManagementService

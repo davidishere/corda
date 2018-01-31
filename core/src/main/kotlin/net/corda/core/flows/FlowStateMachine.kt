@@ -1,9 +1,9 @@
-package net.corda.core.internal
+package net.corda.core.flows
 
 import co.paralleluniverse.fibers.Suspendable
+import net.corda.core.DoNotImplement
 import net.corda.core.concurrent.CordaFuture
 import net.corda.core.crypto.SecureHash
-import net.corda.core.flows.*
 import net.corda.core.identity.Party
 import net.corda.core.identity.PartyAndCertificate
 import net.corda.core.context.InvocationContext
@@ -14,6 +14,7 @@ import org.slf4j.Logger
 import java.time.Instant
 
 /** This is an internal interface that is implemented by code in the node module. You should look at [FlowLogic]. */
+@DoNotImplement
 interface FlowStateMachine<R> {
     @Suspendable
     fun getFlowInfo(otherParty: Party, sessionFlow: FlowLogic<*>, maySkipCheckpoint: Boolean): FlowInfo

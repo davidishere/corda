@@ -6,9 +6,9 @@ import net.corda.core.contracts.*
 import net.corda.core.flows.FinalityFlow
 import net.corda.core.flows.FlowLogic
 import net.corda.core.flows.FlowSession
+import net.corda.core.flows.FlowStateMachine
 import net.corda.core.flows.InitiatingFlow
 import net.corda.core.identity.AbstractParty
-import net.corda.core.internal.FlowStateMachine
 import net.corda.core.internal.packageName
 import net.corda.core.internal.uncheckedCast
 import net.corda.core.node.StateLoader
